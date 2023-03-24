@@ -1,0 +1,167 @@
+<!-- method => gate = hide data in url bar method => post view data in url bar -->
+<form action="" method="post">
+    <div>
+        <label>Username</label>
+        <input type="text" required placeholder="Write Your Username" name="en" autofocus>
+    </div>
+    <br>
+    <div>
+        <label>Email</label>
+        <input type="email" required placeholder="Write a Valid Email" name="mail">
+    </div>
+    <br>
+    <div>
+        <label>Email</label>
+        <input type="email" required placeholder="Write a Valid Email" name="mail" readonly>
+    </div>
+    <br>
+    <div>
+        <label>Email</label>
+        <input type="email" required placeholder="Write a Valid Email" name="mail" value="omar" readonly>
+    </div>
+    <br>
+    <div>
+        <label>Email</label>
+        <!-- disabled not send the data -->
+        <input type="email" required placeholder="Write a Valid Email" name="mail" value="omar" disabled />
+    </div>
+    <br>
+    <div>
+        <label>Password</label>
+        <input type="password" required placeholder="Write a Complex Password" name="pass" minlength="9"
+            maxlength="20" />
+    </div>
+    <br>
+    <div>
+        <label>Subject</label>
+        <input type="text" placeholder="Not Required" value="ur addres" name="sub">
+    </div>
+    <br>
+    <div>
+        <label>color</label>
+        <input type="color" name="Color">
+    </div>
+    <br>
+    <div>
+        <label>Range</label>
+        <input type="range" name="range" min="0" max="100" step="20" value="20">
+    </div>
+    <br>
+    <div>
+        <label for="num1">number</label>
+        <input type="number" name="number" min="2" max="500" id="num1">
+    </div>
+    <div>
+        <label for="num">number</label>
+        <input type="number" name="number" id="num">
+    </div>
+    <br>
+    <div>
+        <label for="amogos">amogos sos</label>
+        <select name="sos" id="amogos" multiple>
+            <optgroup label="Actors">
+                <option value="1">al pacino</option>
+                <option value="2" selected>frank castle</option>
+                <option value="3">L.messi</option>
+                <option value="4">se7en</option>
+            </optgroup>
+            <optgroup label="Actors movies">
+                <option value="5">scarface</option>
+                <option value="6">the punisher</option>
+                <option value="7">fc barcelona</option>
+                <option value="8">se7en</option>
+            </optgroup>
+        </select>
+        <p><textarea name="notes" cols="20" rows="5 " placeholder="Do you have any comments?"></textarea></p>
+    </div>
+    <hr>
+    <div>
+        <input type="radio" name="os" value="windows" checked id="win" />
+        <!-- The label in os comes after the inbut -->
+        <label for="win">windows</label>
+    </div>
+    <br>
+    <div>
+        <input type="radio" name="os" value="mac" id="mac" />
+        <!-- The label in os comes after the inbut -->
+        <label for="mac">mac</label>
+    </div>
+    <br>
+    <div>
+        <input type="radio" name="os" value="linux" id="linux" />
+        <!-- The label in os comes after the inbut -->
+        <label for="linux">linux</label>
+    </div>
+    <hr>
+    <!-- In the checkbox, you can select more than one check, unlike the radio, you must select one -->
+    <div>
+        <input type="checkbox" name="os" value="windows" checked id="win1" />
+        <!-- The label in os comes after the inbut -->
+        <label for="win1">windows</label>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="os" value="mac" id="mac1" />
+        <!-- The label in os comes after the inbut -->
+        <label for="mac1">mac</label>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" name="os" value="linux" id="linux1" />
+        <!-- The label in os comes after the inbut -->
+        <label for="linux1">linux</label>
+    </div>
+    <br>
+    <div>
+        <label>Date</label>
+        <input type="date">
+    </div>
+    <br>
+    <div>
+        <label>Month</label>
+        <input type="month">
+    </div>
+    <br>
+    <div>
+        <label>Time</label>
+        <input type="time">
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Login">
+    </div>
+    <br>
+    <div>
+        <!-- hidden input used to hide data in web sorce data like id etc... -->
+        <input type="hidden" value="omar">
+        <input type="reset" value="Reset">
+    </div>
+    <hr>
+    <div>
+        <label>upload</label>
+        <input type="file">
+    </div>
+    <hr>
+    <div>
+        <label>search</label>
+        <input type="search">
+    </div>
+    <br>
+    <div>
+        <label>url</label>
+        <input type="url">
+    </div>
+    <br>
+    <div>
+        <label>search</label>
+        <input type="search">
+    </div>
+    <br>
+    <input list="Programming" form="Programming">
+    <datalist id="Programming">
+        <option value="Python">
+        <option value="PhP">
+        <option value="C#">
+        <option value="C++">
+    </datalist>
+</form>
